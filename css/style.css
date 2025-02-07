@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.c{
+    background-image: url("../images/back.jpg");
+    width: 100%;
+    height: 400px;
+}
+.aa{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+}
+.ex{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+
+}
+.our{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+
+}
+.cc{
+    background-image:url(../images/ffback2.png);
+    width: 100%;
+    height: 500px;
+}
+.img{
+    width: 80%;
+}
+
+/* media query */
+@media(max-width:768px){
+    .img{
+        width: 100%;
+    }
+    
+}

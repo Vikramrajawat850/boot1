@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar with footer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--font awesome cdn-->
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--javascript cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    <!--my css-->
+    <style>
+        
+        .weblogo {
+            width: 65px;
+        }
+
+        .navbar {
+            background-color: #000000c2;
+        }
+
+        .navbar-nav li {
+            padding: 0 10px;
+        }
+
+        .navbar-nav li a {
+            color: #fff !important;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        footer {
+            background: #020306f0;
+            padding: 50px;
+            color: #fff;
+            
+        }
+
+        footer img {
+            width: 50%;
+            margin-top: 30px;
+        }
+
+        footer .ml-1 {
+            font-family: 'prague';
+            padding-top: 20px;
+            line-height: 50px;
+            letter-spacing: 3px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        footer p {
+            line-height: 30px;
+            word-spacing: 1px;
+            font-size: 16px;
+            color: white;
+        }
+          .au{
+            text-align: center;
+          }
+          .moblogo{
+             display: none; 
+            width: 100px;
+          }
+        footer h1 {
+            color: orange;
+            font-size: 1rem;
+        }
+
+        footer .aaa {
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: 'prague';
+            letter-spacing: 3px
+        }
+        .w{
+            background-image: url(../images/back.jpg);
+            width: 100%;
+            height: 400px;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+            margin-right: auto;margin-left: auto;
+            background-size: cover;
+        }
+        ul li a:hover{
+            background-color: orange;
+            color: black !important;;
+            border-radius: 5px;
+        }
+        
+        @media(max-width:700px){
+            .moblogo{
+             display: block; 
+            width: 100px;
+          }
+          .weblogo{
+            display: none;
+          }
+          .navbar{
+            background: #fcb01b;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!--start navbar section-->
+    <nav class="navbar  navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <img src="../images/logo.png" class="weblogo">
+                <img src="../images/mobilelogo.png" class="moblogo">
+            </a>
+            <!--mobile view-->
+
+            <button class="navbar-toggler" data-bs-target="#a" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+                <!-- <i class="fa-solid fa-bars-staggered"></i> -->
+            </button>
+            <!--menu start-->
+            <div class="navbar-collapse collapse" id="a">
+                <ul class="navbar-nav ms-auto au">
+                    <li><a href="" class="nav-link text-white">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li><a href="" class="nav-link">Brand</a></li>
+                    <li><a href="" class="nav-link">Our Team</a></li>
+                    <li><a href="" class="nav-link">Press Release</a></li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+                    <li><a href="" class="nav-link">Career</a></li>
+                </ul>
+            </div>
+        </div><!--end container-fluid-->
+    </nav><!--end navbar-->
+    <!--slider code-->
+    <img src="../images/slider1.jpg" class="w-100 mt-5 "> 
+    <br><br><br>
+    <!--end slider code-->
+    <!--Section code Start-->
+    <div class="container">
+        <h2 class="a">WELCOME TO <b style="color:orange">FIRST FIDDLE</b></h2>
+        <br>
+        <div class="row">
+            <div class="col-md-7">
+                <p class="b">First Fiddle Restaurants, one of India's leading and widely recognised F&B companies,
+                    is owned and piloted by Priyank Sukhija. A pioneer in the industry,
+                    he started First Fiddle Restaurants in 1999 with his first brand,
+                    Lazeez Affaire,which is a loved fine dine space even today.
+                    Having completed 24 years since, the company now has more than 15 + brands and 35+
+                    outlets to it's name!</p>
+                <br>
+                <center class="mt-4 ">
+                    <a href="" class="btn btn-warning shadow-md mb-3 text-white">join the journey</a>
+                </center>
+            </div>
+            <div class="col-md-5 text-center mb-3">
+                <img src="../images/first.jpg" alt="" class="img ">
+            </div>
+        </div><!--row end-->
+    </div><!--container end-->
+    <div class="container-fluid c">
+        <div class="row">
+            <div class="col-md-2">
+                <!-- <img src="../images/logo.png" alt=""> -->
+            </div>
+            <div class="col-md-8 text-white" style="padding-top: 140px;">
+                <h1 class="text-center aa">MEDIA MENTION</h1>
+                <p>We've been making splashes and headlines since 1999 for our innovative concepts and aesthetic
+                    ideations, experimental gastronomic affairs, and exotic mixology. We’ve made our way from the heart
+                    of the country into the hearts of its people!
+                </p>
+                <center>
+                    <button class="btn btn-warning btn-lg mt-5 text-white " style="margin-bottom: 2cm;">Know
+                        More</button>
+                </center>
+            </div>
+        </div><!--end row-->
+    </div><!--container-fluid  c end -->
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h1 class="text-center ex">"EXPLORE"<b style="color: orange;" class="our">OUR BRAND</b></h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card shadow mt-4">
+                    <img src="../images/ffpic1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow mt-4">
+                    <img src="../images/ffpic2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow mt-4">
+                    <img src="../images/ffpic3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow mt-4">
+                    <img src="../images/ffpic4.jpg" alt="">
+                </div>
+            </div>
+        </div><!--end row-->
+    </div><!--end container2-->
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid cc">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-white" style="padding-top: 140px;">
+                <h1 class="text-center aa">EXPERIENCE OUR CONCEPTS</h1>
+                <p style=" line-height: 40px;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                padding-right: 5px;
+                margin-top: 10px;
+                text-align: center;
+                ">Moving beyond just offering Indian, international, and fusion cuisines,
+                    our restaurants create magic with our special events, mood-setting music,
+                    Insta-worthy aesthetics, and tongue-tingling signatures! Head over to experience it for yourself!
+                </p>
+                <center>
+
+                    <button class="btn btn-warning btn-lg mt-5 text-white " style="margin-bottom: 2cm;">Know
+                        More</button>
+                </center>
+            </div>
+        </div><!--end row-->
+    </div><!--end container fluid cc-->
+    <!--End Section code-->
+    
+    <!--start footer section-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 text-center">
+                    <a href="">
+                        <img src="../images/logo.png" alt="" class="img">
+                    </a>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-7">
+                    <h1 class="ml-1"> <span style="color: #ffad00;">Contact </span>Us</h1>
+                    <p>First Fiddle Restaurants, the pioneers of casual and experiential dining,
+                        has been changing the industry for the better for over 20 years.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="aaa" style="color: orange;">Address</h1>
+                            <p class="text-light">S-357 2nd floor, Block S, Panchsheel Park South, Panchsheel Park, New
+                                Delhi, Delhi 110017.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h1 class=" aaa  " style="color: orange;">Enquiry</h1>
+                            <p class="text-light">Email:-<b
+                                    style="color: orange; font-weight: 400;"> customercare@firstfiddle.in</b></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-5">
+                                <a href="" style="text-decoration: none;"><i class="fa-brands fa-facebook" style="color: orange; font-size: 40px;">
+
+                                    </i>
+                                </a>
+                                <a href=""style="text-decoration: none;">
+                                    <i class="fa-brands fa-instagram"
+                                        style="color: orange; font-size: 40px; margin-left: 3px;"></i>
+                                </a>
+                                <a href="" style="text-decoration: none;">
+                                    <i class="fa-brands fa-whatsapp"
+                                        style="color: orange; font-size: 40px; margin-left: 3px;"></i>
+                                </a>
+                            </div>
+                        </div><!--end row-->
+                    </div><!--end row-->
+                </div>
+            </div><!--end row-->
+        </div><!--end container-fluid-->
+
+    </footer><!--end footer section-->
+</body>
+
+</html>
