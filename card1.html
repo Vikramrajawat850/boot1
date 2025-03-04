@@ -20,6 +20,25 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
+        <style>
+            .card-img-overlay {
+                background: rgba(0, 0, 0, 0.7); /* Darker background */
+                opacity: 0;
+                transition: opacity 0.5s ease-in-out; /* Smooth transition */
+                padding: 20px; /* Add padding */
+                text-align: center; /* Center align text */
+            }
+            .card:hover .card-img-overlay {
+                opacity: 1;
+            }
+            .card-title {
+                font-size: 1.5rem; /* Increase font size */
+                margin-bottom: 10px; /* Add margin below title */
+            }
+            .card-text {
+                font-size: 1rem; /* Adjust font size */
+            }
+        </style>
 </head>
 
 <body>
@@ -119,7 +138,7 @@
             <div class="col-md-4">
                 <div class="card " >
                     <img src="../images/about9.jpg" class="card-img" alt="image1">
-                    <div class="card-img-overlay ">
+                    <div class="card-img-overlay d-flex flex-column justify-content-center">
                         <div class="card-body  mt-5">
                             <h5 class=" text-center card-title mt-5 text-white ">title</h5>
                             <p class="card-text text-white text-justify text-center"><small>learning never --End...
